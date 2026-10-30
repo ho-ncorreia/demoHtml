@@ -1,6 +1,6 @@
 services:
   frontend:
     build: { context: ., dockerfile: Dockerfile }
-    image: "${REGISTRY}/earth/demoFrontend:${TAG}"
+    image: "${REGISTRY}/earth/demofrontend:${TAG}"
     ports: ["8080:8080"]
     restart: unless-stopped
